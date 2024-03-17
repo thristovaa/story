@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: "Alef", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+}
+
+.logo {
+    color:white;
+    font-size: 22px;
+}
+
+.menu-items{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 40px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.menu-items > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-items > .active{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: white;
+}
