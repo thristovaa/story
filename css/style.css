@@ -61,7 +61,7 @@ body{
     font-size: 5vw;
     color: #5F021F;
   }
-  .page:nth-child(2){
+  .page:nth-child(2), .page:nth-child(6), .page:nth-child(8){
     display: flex;
     justify-content: center;
     align-items: center;
