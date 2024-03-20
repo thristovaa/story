@@ -45,6 +45,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 50px;
     background-color: #22020c;
     padding: 50px 150px;
     margin: 50px 150px 0;
@@ -178,4 +180,48 @@ body{
   * :before,
   *:after {
     box-sizing: border-box;
+  }
+
+
+  /*card*/
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .card{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .card img{
+    width: 250px;
+    border-radius: 25px 0 0 25px;
+  }
+
+  .card-content{
+    background-color: white;
+    border-radius: 0 25px 25px 0;
+    padding: 0 30px;
+  }
+
+  .card-content h2{
+    color: #5F021F;
+  }
+
+  .card-content p{
+    text-align: start;
+    font-size: 20px;
+  }
+
+  .content h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
   }
